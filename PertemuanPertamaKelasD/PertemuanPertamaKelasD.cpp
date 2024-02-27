@@ -29,6 +29,7 @@ int main()
     cout >> "Masukan Luasnya";
     cin >> nLuas;
 
+
     system("Pause");
 
 }//end
