@@ -1,6 +1,4 @@
-// PertemuanPertamaKelasD.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+#include <iostream>
 using namespace std;
 
 int main()
@@ -21,7 +19,17 @@ int main()
     cout << "Masukan Tingginya= ";
     cin >> nTinggi;
     nLuas = 0.5 * (nAlas * nTinggi);
-    cout << "Luasnya adalah= "; << nLuas << endl;
+    cout << "Luasnya adalah= " << nLuas << endl;
+
+    int Panjang, Lebar, Luas;
+    cout << "Masukan panjangnya";
+    cin >> nPanjang;
+    cout >> "Masukan Lebarnya";
+    cin >> nLebar;
+    cout >> "Masukan Luasnya";
+    cin >> nLuas;
+
+    system("Pause");
 
 }//end
     
